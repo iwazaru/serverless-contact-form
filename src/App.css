@@ -44,3 +44,15 @@
   margin: auto;
   padding: 5px 10px;
 }
+
+.App .submit-button:disabled {
+  opacity: 0.5;
+}
+
+.App .success {
+  color: #28a745;
+}
+
+.App .error {
+  color: #dc3545;
+}
