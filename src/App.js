@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import onSubmit from './on-submit';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Contact me</h1>
-      <form>
+      <form onSubmit={onSubmit}>
         <div className="field">
           <label htmlFor="name">Your name:</label>
           <input type="text" id="name" name="name" required />
