@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Contact me</h1>
+      <h1>Contact {process.env.REACT_APP_CONTACT_NAME}</h1>
 
       {/* If an error message is set, we display it above form */}
       {error && <div className="error">{error}</div>}
