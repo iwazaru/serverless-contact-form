@@ -1,5 +1,7 @@
 [build]
   functions = "./functions" # where our functions are stored
+  build = "yarn build" # our build command
+  publish = "./build" # the directory to publish
 
 # Rewrite url to hide ".netlify/functions"
 [[redirects]]
